@@ -1,4 +1,12 @@
-# Best ESlint config
+# Perfect ESLint config
+```
+yarn add eslint-plugin-jsx-a11y -D
+yarn add eslint-plugin-flowtype -D 
+yarn add eslint-plugin-import -D
+yarn add eslint-plugin-jsx-control-statements -D
+yarn add eslint-config-react-app -D
+```
+
 ```JavaScript
 module.exports = {
   extends: ['react-app', 'plugin:jsx-control-statements/recommended'],
@@ -30,7 +38,7 @@ module.exports = {
 }
 ```
 
-## ESlint config with flow
+## ESLint config with flow-types
 ```JavaScript
 module.exports = {
   extends: ['react-app', 'plugin:jsx-control-statements/recommended', 'plugin:flowtype/recommended'],
