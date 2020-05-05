@@ -1,10 +1,6 @@
 # Perfect ESLint config
 ```
-yarn add eslint-plugin-jsx-a11y -D
-yarn add eslint-plugin-flowtype -D 
-yarn add eslint-plugin-import -D
-yarn add eslint-plugin-jsx-control-statements -D
-yarn add eslint-config-react-app -D
+yarn add eslint-plugin-jsx-a11y eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-control-statements eslint-config-react-app
 ```
 
 ```JavaScript
