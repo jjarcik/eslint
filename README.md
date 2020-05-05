@@ -17,6 +17,7 @@ module.exports = {
     'react/jsx-uses-react': 'error',
     'comma-dangle': ['error', 'only-multiline'],
     'space-before-function-paren': 0,
+    'object-curly-spacing': [2, 'always'],
     'no-unused-vars': ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
     eqeqeq: 'warn',
     semi: ['error', 'never'],
